@@ -46,6 +46,19 @@ Ce projet fournit une solution complète et automatisée pour déployer un site 
     └── setup-wordpress.sh
 ```
 
+## Schémas et Diagrammes
+
+Voici quelques schémas et diagrammes illustrant l'architecture et le fonctionnement de notre solution :
+
+![Architecture générale](./images/architecture_generale.png)
+*Diagramme de l'architecture générale du système*
+
+![Flux de déploiement](./images/flux_deploiement.png)
+*Schéma du flux de déploiement automatisé*
+
+![Processus de sauvegarde](./images/processus_sauvegarde.png)
+*Diagramme du processus de sauvegarde automatique*
+
 ## Installation
 
 1. Clonez ce dépôt :
