@@ -48,16 +48,16 @@ Ce projet fournit une solution complète et automatisée pour déployer un site 
 
 ## Schémas et Diagrammes
 
-Voici quelques schémas et diagrammes illustrant l'architecture et le fonctionnement de notre solution :
+Voici quelques schémas et diagrammes illustrant l'architecture et le fonctionnement de notre solution WordPress automatisée :
 
-![Architecture générale](./images/architecture_generale.png)
-*Diagramme de l'architecture générale du système*
+![Architecture générale](./images/archi-auto-wordpress.png)
+*Architecture générale de la solution WordPress automatisée*
 
-![Flux de déploiement](./images/flux_deploiement.png)
-*Schéma du flux de déploiement automatisé*
+![Flux de déploiement](./images/flux-deploiement-auto-wordpress.png)
+*Schéma du flux de déploiement automatisé pour WordPress*
 
-![Processus de sauvegarde](./images/processus_sauvegarde.png)
-*Diagramme du processus de sauvegarde automatique*
+![Flux automatisé](./images/flux-auto-wordpress.png)
+*Diagramme du flux automatisé pour WordPress*
 
 ## Installation
 
