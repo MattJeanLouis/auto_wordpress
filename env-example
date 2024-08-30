@@ -1,0 +1,60 @@
+# Configuration MySQL
+# Utilisez des mots de passe forts et uniques pour chaque service
+# Vous pouvez utiliser la commande : openssl rand -base64 32
+MYSQL_ROOT_PASSWORD=
+MYSQL_DATABASE=wordpress
+MYSQL_USER=wordpress_user
+MYSQL_PASSWORD=
+
+# Configuration WordPress
+WORDPRESS_DB_HOST=db:3306
+WORDPRESS_DB_USER=wordpress_user
+WORDPRESS_DB_PASSWORD=
+WORDPRESS_DB_NAME=wordpress
+WORDPRESS_TABLE_PREFIX=wp_
+WORDPRESS_DEBUG=false
+
+# Clés de sécurité WordPress
+WP_AUTH_KEY=
+WP_SECURE_AUTH_KEY=
+WP_LOGGED_IN_KEY=
+WP_NONCE_KEY=
+WP_AUTH_SALT=
+WP_SECURE_AUTH_SALT=
+WP_LOGGED_IN_SALT=
+WP_NONCE_SALT=
+
+# Configuration du domaine et SSL
+DOMAIN=votredomaine.com
+EMAIL=votre@email.com
+
+# Adresse IP du serveur
+SERVER_IP=xxx.xxx.xxx.xxx
+
+# Ports Nginx
+NGINX_HTTP_PORT=80
+NGINX_HTTPS_PORT=443
+
+# Cloudflare API
+# Assurez-vous de limiter les permissions du token API au strict nécessaire
+CLOUDFLARE_API_TOKEN=
+CLOUDFLARE_ZONE_ID=
+
+# Configuration WordPress
+# Utilisez un nom d'utilisateur difficile à deviner
+WP_ADMIN_USER=
+WP_ADMIN_PASSWORD=
+WP_ADMIN_EMAIL=admin@votredomaine.com
+
+# Nom du projet Docker Compose (utilisé pour les noms de conteneurs)
+COMPOSE_PROJECT_NAME=mon_projet_wordpress
+
+# Configuration Grafana
+GF_SECURITY_ADMIN_PASSWORD=your_grafana_admin_password
+
+# AVERTISSEMENT DE SÉCURITÉ :
+# 1. Ne partagez jamais ce fichier ou son contenu avec des personnes non autorisées.
+# 2. Ne commitez jamais ce fichier dans un dépôt de code source.
+# 3. Limitez les permissions d'accès à ce fichier sur le serveur (chmod 600 .env).
+# 4. Changez régulièrement les mots de passe et les tokens.
+# 5. Utilisez un gestionnaire de secrets si possible dans un environnement de production.
