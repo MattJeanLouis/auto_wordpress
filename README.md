@@ -157,11 +157,3 @@ Avant de mettre en production :
 2. Vérifiez que le pare-feu de votre serveur autorise uniquement les ports nécessaires (80, 443)
 3. Configurez des sauvegardes externes régulières
 4. Testez le processus de restauration dans un environnement de staging
-
-## Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request pour des améliorations ou des corrections.
-
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
